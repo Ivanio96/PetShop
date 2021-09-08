@@ -51,7 +51,7 @@ namespace PetShop.WebApi.Controllers
         public ActionResult<Pet> Update(int id, [FromBody] Pet pet)
         {
             if (id != pet.Id)
-                return BadRequest("parameter id and pet id must be the same");
+                return BadRequest("id and pet id must be the same");
             return Ok(_petService.Update(pet));
         }
         
