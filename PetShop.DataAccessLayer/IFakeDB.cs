@@ -11,5 +11,7 @@ namespace PetShop.DataAccessLayer
         public PetType AddPetType(PetType petType);
 
         public int DeletePetType(int id);
+        
+        
     }
 }
