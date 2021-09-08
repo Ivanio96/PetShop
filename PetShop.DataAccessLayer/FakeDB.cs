@@ -6,7 +6,7 @@ namespace PetShop.DataAccessLayer
 {
     public class FakeDB : IFakeDB
     {
-        private static List<Pet> _fakeDbPets = new List<Pet>();
+        public static List<Pet> _fakeDbPets = new List<Pet>();
         private static List<PetType> _fakeDbPetTypes = new List<PetType>();
         private static int _id = 1;
 

@@ -4,12 +4,12 @@ namespace PetShop.DataAccessLayer
 {
     public interface IFakeDB
     {
-        Pet AddPet(Pet pet);
+        public Pet AddPet(Pet pet);
 
-        int DeletePet(int id);
+        public int DeletePet(int id);
 
-        PetType AddPetType(PetType petType);
+        public PetType AddPetType(PetType petType);
 
-        int DeletePetType(int id);
+        public int DeletePetType(int id);
     }
 }

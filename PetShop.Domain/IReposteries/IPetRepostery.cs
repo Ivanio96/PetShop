@@ -6,8 +6,10 @@ namespace PetShop.Domain.IReposteries
 {
     public interface IPetRepostery
     {
-        Pet Add(Pet pet);
-
-        List<Pet> FindAll();
+        Pet Create(Pet pet);
+        List<Pet> ReadAll();
+        Pet Update(Pet pet);
+        bool Delete(string s);
+        Pet GetById(int id);
     }
 }

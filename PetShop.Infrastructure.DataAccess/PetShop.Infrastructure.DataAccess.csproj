@@ -46,6 +46,10 @@
         <Project>{9f5cb293-25d8-4fcd-a4ba-9e2128f33b33}</Project>
         <Name>PetShop.Core</Name>
       </ProjectReference>
+      <ProjectReference Include="..\PetShop.DataAccessLayer\PetShop.DataAccessLayer.csproj">
+        <Project>{ec792fa8-0dda-4761-8c03-cb9add4d35be}</Project>
+        <Name>PetShop.DataAccessLayer</Name>
+      </ProjectReference>
       <ProjectReference Include="..\PetShop.Domain\PetShop.Domain.csproj">
         <Project>{19c9674d-a9d3-49ab-9f4d-63d68273677f}</Project>
         <Name>PetShop.Domain</Name>
